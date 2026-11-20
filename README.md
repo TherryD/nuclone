@@ -1,17 +1,41 @@
-# nuclone
+# NuClone
 
-A new Flutter project.
+Clone da interface do aplicativo Nubank desenvolvido em **Flutter**, criado para praticar a construção de layouts, componentes visuais e estilização no framework.
 
-## Getting Started
+## Sobre o Projeto
 
-This project is a starting point for a Flutter application.
+Este projeto reproduz a interface de um aplicativo bancário digital inspirado no Nubank, com foco em design limpo, organização de widgets e responsividade em múltiplas plataformas (Android, iOS, Web e Desktop).
 
-A few resources to get you started if this is your first Flutter project:
+## Estrutura do Projeto
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```text
+nuclone/
+├── lib/
+│   └── main.dart          # Código principal da interface e lógica do app
+├── test/
+│   └── widget_test.dart   # Testes de widget
+└── pubspec.yaml           # Configurações e dependências do projeto
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tecnologias Utilizadas
+
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+
+## Como Executar o Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/therryd/nuclone.git](https://github.com/therryd/nuclone.git)
+   cd nuclone
+   ```
+
+2. **Instale as dependências:**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Execute o aplicativo:**
+   ```bash
+   flutter run
+   ```
